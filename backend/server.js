@@ -2,10 +2,11 @@ import express from 'express';
 const app = express();
 
 // 1. Root route - Send a text response back to the browser
-app.get('/', (req, res) => {
-    console.log('hello your server is running');
-    res.send('Server is up and running!'); // Added res.send()
-});
+app.use(express.static('dist'))
+// app.get('/', (req, res) => {
+//     console.log('hello your server is running');
+//     res.send('Server is up and running!'); // Added res.send()
+// });
 
 // 2. Jokes route - Return the array as JSON
 app.get('/api/jokes', (req, res) => {
