@@ -1,15 +1,25 @@
 {
-  "name": "faria",
+  "name": "project_backend",
   "version": "1.0.0",
   "description": "this is a beatifull package",
+  "homepage": "https://github.com/sameerali306/back-end#readme",
+  "bugs": {
+    "url": "https://github.com/sameerali306/back-end/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerali306/back-end.git"
+  },
   "license": "ISC",
   "author": "sameer ali",
-  "type": "commonjs",
+  "type": "javaScript,backEnd,python",
   "main": "indes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
