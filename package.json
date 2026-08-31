@@ -1,0 +1,21 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "this is the backend project",
+  "types": "module",
+  "keywords": [
+    "index.js",
+    "python",
+    "javaScript"
+  ],
+  "license": "ISC",
+  "author": "sameer ali",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
